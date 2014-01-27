@@ -1,6 +1,6 @@
 {
   "name": "bower-registry",
-  "version": "0.1.5",
+  "version": "0.1.5-forward",
   "description": "Simple bower registry using node and redis.",
   "main": "index.js",
   "scripts": {
@@ -17,12 +17,12 @@
     "bower",
     "registry"
   ],
-  "author": "Greg Bergé <berge.greg@gmail.com>",
+  "author": "Greg Bergé <berge.greg@gmail.com>, Aiko Mastboom <Aiko.Mastboom@informaat.nl>",
   "license": "MIT",
   "dependencies": {
     "express": "~3.2.6",
     "q": "~0.9.6",
-    "redis": "~0.8.3",
+    "redis": "~0.10.0",
     "async": "~0.2.9",
     "commander": "~1.2.0"
   },
